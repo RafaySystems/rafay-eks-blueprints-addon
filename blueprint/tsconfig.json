@@ -1,0 +1,50 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "ES2018",
+        "module": "commonjs",
+        "lib": [
+            "es2018",
+            "dom"
+        ],
+        "declaration": true,
+
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": false,
+        "inlineSourceMap": true,
+        "composite": true,
+        "inlineSources": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "typeRoots": [
+            "./node_modules/@types"
+        ]
+    },
+    "references": [
+        {
+            "path": "../aws-ssp-create-organization-addon"
+
+        },
+        {
+            "path": "../aws-ssp-import-cluster-addon"
+        }
+    ],
+    "exclude": [
+        "cdk.out",
+        "node_modules",
+        "test",
+        ".git",
+        "dist"
+    ],
+    "include": [
+        "lib",
+        "examples"
+    ]
+}
