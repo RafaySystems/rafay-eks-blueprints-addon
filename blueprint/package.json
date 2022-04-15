@@ -1,10 +1,10 @@
 {
-  "name": "eks-blueprint-sample",
+  "name": "rafay-eks-blueprint-addon-example",
   "version": "0.1.0",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
   "bin": {
-    "eks-ssp-patterns": "dist/bin/main.js"
+    "eks-blueprint-patterns": "dist/bin/main.js"
   },
   "scripts": {
     "build": "rm -rf dist && tsc",

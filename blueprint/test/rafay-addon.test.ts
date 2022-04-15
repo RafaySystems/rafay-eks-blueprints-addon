@@ -1,6 +1,6 @@
 import { expect as expectCDK, matchTemplate, MatchStyle } from '@aws-cdk/assert';
 import * as cdk from '@aws-cdk/core';
-import * as Ssp from '../lib/ssp-stack';
+import * as blueprint from '../lib/eks-blueprint-stack';
 
 
 
@@ -8,7 +8,7 @@ import * as Ssp from '../lib/ssp-stack';
 test('Empty Stack', () => {
     const app = new cdk.App();
     // WHEN
-    const stack = new Ssp.StarterConstruct(app, 'MyTestStack');
+    const stack = new blueprint.StarterConstruct(app, 'MyTestStack');
     // THEN
     expectCDK(stack).to(matchTemplate({
       "Resources": {}

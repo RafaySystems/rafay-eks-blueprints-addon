@@ -1,6 +1,6 @@
 # Using the Rafay Addon in your EKS Blueprints for CDK
 
-Before you can use the Rafay Addon in your EKS Blueprints for CDK implementation, please follow the instructions in the [AWS Quickstart Repo](https://github.com/aws-quickstart/quickstart-ssp-amazon-eks) to initialize your CDK project and include the `cdk-eks-blueprint` dependency.
+Before you can use the Rafay Addon in your EKS Blueprints for CDK implementation, please follow the instructions in the [AWS Quickstart Repo](https://github.com/aws-quickstart/cdk-eks-blueprints) to initialize your CDK project and include the `cdk-eks-blueprint` dependency.
 
 Add the `@rafayoss/rafay-eks-blueprints-addon` package to your project and save it in your `package.json` file by running the following command:
 
