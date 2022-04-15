@@ -30,7 +30,7 @@
     "aws-cdk-lib": "2.20.0",
     "constructs": "^10.0.0",
     "@aws-quickstart/eks-blueprints": "latest",
-    "@rafayoss/rafay-eks-blueprints-addon": "file:../addon",
+    "@rafaysystems/rafay-eks-blueprints-addon": "0.0.1",
     "source-map-support": "^0.5.21"
   }
 }

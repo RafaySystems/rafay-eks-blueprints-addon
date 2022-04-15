@@ -2,16 +2,16 @@
 
 Before you can use the Rafay Addon in your EKS Blueprints for CDK implementation, please follow the instructions in the [AWS Quickstart Repo](https://github.com/aws-quickstart/cdk-eks-blueprints) to initialize your CDK project and include the `cdk-eks-blueprint` dependency.
 
-Add the `@rafayoss/rafay-eks-blueprints-addon` package to your project and save it in your `package.json` file by running the following command:
+Add the `@rafaysystems/rafay-eks-blueprints-addon` package to your project and save it in your `package.json` file by running the following command:
 
 ```shell
-npm install @rafayoss/rafay-eks-blueprints-addon
+npm install @rafaysystems/rafay-eks-blueprints-addon
 ```
 
 Import the addon in your `bin/<your-main-file>.ts` file, create a `rafayConfig` object and use that to create a new `RafayClusterAddOn` object, which you'll add to the array of AddOns to include in your cluster:
 
 ```typescript
-import * as rafayCluster from '@rafayoss/rafay-eks-blueprints-addon';
+import * as rafayCluster from '@rafaysystems/rafay-eks-blueprints-addon';
 
 let rafayConfig = {
     organizationName: "<Name of the Organization to be used when creating in Rafay>",

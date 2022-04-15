@@ -1,5 +1,5 @@
 {
-  "name": "@rafayoss/rafay-eks-blueprints-addon",
+  "name": "@rafaysystems/rafay-eks-blueprints-addon",
   "version": "0.0.1",
   "description": "Rafay Addon for AWS EKS Blueprints",
   "main": "dist/src/index.js",

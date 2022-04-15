@@ -4,7 +4,7 @@ import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
 import * as blueprints from '@aws-quickstart/eks-blueprints';
 
-import * as rafayCluster from '@rafayoss/rafay-eks-blueprints-addon';
+import * as rafayCluster from '@rafaysystems/rafay-eks-blueprints-addon';
 
 
 const passwordSecretName = "rafay-eks-blueprint-secret";
