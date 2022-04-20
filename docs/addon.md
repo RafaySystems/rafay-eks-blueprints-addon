@@ -8,7 +8,7 @@ Rafay automates the deployment of containerized applications and enables access 
 
 ## What does Rafay addon look like?
 
-The addon itself is a typescript [package hosted in npm](https://www.npmjs.com/settings/weaveworksoss/packages).
+The addon itself is a typescript [package hosted in npm](https://www.npmjs.com/package/@rafaysystems/rafay-eks-blueprints-addon).
 
 You can install it using `npm` and use it in your implementation of the EKS Blueprints for CDK .
 
@@ -25,9 +25,3 @@ You can install it using `npm` and use it in your implementation of the EKS Blue
   
       - `password`: Password to be used when creating the account in Rafay.
       
-The addon Lifecycle has two stages which are managed by the addon itself:
-
-1. **Deploy**: During this stage the addon installs Weave GitOps core components of which you can learn more [here](https://docs.gitops.weave.works/docs/intro#features).
-2. **Post deploy**: Once the Core components are in place then a Weave GitOps `application` will be defined pointing to your specific `bootstrap` repository. Weave GitOps `applications` make your workloads deployable and can include any number of other `applications` pointing to different repositories and allow for `helm` or `kustomize` workload declaration. 
-
-To learn more about apps and targets in the context of Weave GitOps read [GitOps Automation Configuration](https://docs.gitops.weave.works/docs/gitops-automation).
