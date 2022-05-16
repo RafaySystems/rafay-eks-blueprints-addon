@@ -1,6 +1,5 @@
-import * as cdk from '@aws-cdk/core';
 import { ClusterAddOn, ClusterInfo } from '@aws-quickstart/eks-blueprints';
-import { Construct } from '@aws-cdk/core';
+import { Construct } from "constructs";
 import * as utils from './util';
 import * as secretsMgr from './secretmanager';
 import * as rafaycluster from './cluster';
